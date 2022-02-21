@@ -7,12 +7,19 @@ around the world.
 It takes in city as an argument and the temperature can be defined
 at the start of the program.
 
+## INSTALLATION
+
+The weather app can be installed via Pip
+```sh
+pip install weather-app-cli
+```
+
 ## USAGE
 
 To run this app, ensure Python 3.1+ is available on your system.
 
 ```sh
-python3 weather.py {city} {-i}
+python3 -m weather {city} {-i}
 ```
 where {city} is the name of the city you would like to check
 and {-i} is used to set temperature to Celsius or Fahrenheit.

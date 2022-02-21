@@ -1,8 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-setup.cfg
-weather-app/weather_app_funkycadet.egg-info/PKG-INFO
-weather-app/weather_app_funkycadet.egg-info/SOURCES.txt
-weather-app/weather_app_funkycadet.egg-info/dependency_links.txt
-weather-app/weather_app_funkycadet.egg-info/top_level.txt

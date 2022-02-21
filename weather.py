@@ -73,7 +73,6 @@ def build_weather_query(city_input, imperial=False):
 	)
 	return url
 
-
 def get_weather_data(query_url):
 	"""Makes an API request to a URL and returns the data as a Python object.
 
@@ -150,9 +149,12 @@ def _select_weather_display_params(weather_id):
 		display_params = ("🌈", style.RESET)
 	return display_params
 
-if __name__ == "__main__":
+def main():
 	user_args = read_user_cli_args()
 	query_url = build_weather_query(user_args.city, user_args.imperial)
 	weather_data = get_weather_data(query_url)
 	#pp(weather_data)  To print out the JSON data in an arranged format
-	display_weather_info(weather_data, user_args.imperial)
+	display_weather_info(weather_data, user_args.imperial)\
+	
+if __name__ == "__main__":
+	main()
