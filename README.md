@@ -19,7 +19,7 @@ and {-i} is used to set temperature to Celsius or Fahrenheit.
 
 # __REFERENCE__
 This app was constructed in relation to a [tutorial](https://realpython.com/build-a-python-weather-app-cli) on RealPython.
-Few changes were made based on the author's preference😉.
+Few modifications were made based on the author's preference😉.
 
 # AUTHOR
 Project was made with ❤ by [Eric Alaribe](https://github.com/smith2eric)
