@@ -9,8 +9,7 @@ at the start of the program.
 
 ## USAGE
 
-To run this app, ensure Python 3.1+ is available on your system
-and you have an API key from [OpenWeather](https://openweathermap.org/).
+To run this app, ensure Python 3.1+ is available on your system.
 
 ```sh
 python3 weather.py {city} {-i}
