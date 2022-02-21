@@ -7,9 +7,6 @@ around the world.
 It takes in city as an argument and the temperature can be defined
 at the start of the program.
 
-__REFERENCE__
-This app was constructed in relation to tutorials on RealPython.
-
 ## USAGE
 
 To run this app, ensure Python 3.1+ is available on your system.
@@ -17,3 +14,12 @@ To run this app, ensure Python 3.1+ is available on your system.
 ```sh
 python3 weather.py {city} {-i}
 ```
+where {city} is the name of the city you would like to check
+and {-i} is used to set temperature to Celsius or Fahrenheit.
+
+# __REFERENCE__
+This app was constructed in relation to a [tutorial](https://realpython.com/build-a-python-weather-app-cli) on RealPython.
+Few changes were made based on the author's preference😉.
+
+# AUTHOR
+Project was made with ❤ by [Eric Alaribe](https://github.com/smith2eric)
