@@ -16,7 +16,7 @@ pip install weather-app-cli
 
 ## USAGE
 
-To run this app, ensure Python 3.1+ is available on your system.
+To run this app, ensure Python 3.5+ is available on your system.
 
 ```sh
 python3 -m weather {city} {-i}
